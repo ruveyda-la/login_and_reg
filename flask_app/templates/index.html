@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-5" style="background-color:pink; margin-top: 100px; border:solid 2px grey;border-radius: 10px;padding-top: 25px;padding-bottom: 25px;">
+                    <div class="col-md-5" style="background-color:#F5CAC3; margin-top: 100px; border:solid 2px #84A59D ;border-radius: 10px;padding-top: 25px;padding-bottom: 25px;">
                 <h3>Register</h3>
                 {% with messages = get_flashed_messages(category_filter=['reg']) %}     
                     {% if messages %}                            
@@ -40,12 +40,12 @@
                         <label for="Password">Confirm Password</label>
                         <input type="password" class="form-control" name="confirm_password">
                     </div>
-                    <button type="submit" class="btn btn-light">Register</button>
+                    <button type="submit" class="btn btn-light" style="background-color:#84A59D">Register</button>
                   </form>
                 
 
             </div>
-            <div class="col-md-5 offset-md-2" style="background-color:pink; margin-top: 100px; border:solid 2px grey;border-radius: 10px;padding-top: 50px;">
+            <div class="col-md-5 offset-md-2" style="background-color:#F5CAC3; margin-top: 100px; border:solid 2px #84A59D;border-radius: 10px;padding-top: 50px;">
                 <h3>Login</h3>
                 {% with messages = get_flashed_messages(category_filter=["log"]) %}     
                     {% if messages %}                            
@@ -64,7 +64,7 @@
                         <label for="Password">Password</label>
                         <input type="password" class="form-control" name="password">
                     </div>
-                    <button type="submit" class="btn btn-light">Login</button>
+                    <button type="submit" class="btn btn-light" style="background-color:#84A59D">Login</button>
                 </form>
 
             </div>
